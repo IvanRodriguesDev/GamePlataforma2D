@@ -1,0 +1,8 @@
+Oi! Eu sou o Gabriel :)
+
+Essa pasta contém todos os arquivos que utilizamos no nosso curso onde aprendemos a criar um jogo de plataforma 2D, na Unity.
+
+Se quiser conferi-lo, o link é esse aqui:
+Meu canal no YouTube (Desenvolvendo Jogos): https://www.youtube.com/c/DesenvolvendoJogos
+
+Bons estudos :)
