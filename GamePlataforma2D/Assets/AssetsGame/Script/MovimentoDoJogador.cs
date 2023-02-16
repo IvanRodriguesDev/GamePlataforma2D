@@ -6,6 +6,7 @@ public class MovimentoDoJogador : MonoBehaviour
 {
     private Rigidbody2D oRigidbody2D;
     public  float VelocidadeDoJodador;
+    public bool IndoParaDireita;
     
 
     void Awake()
@@ -32,6 +33,20 @@ public class MovimentoDoJogador : MonoBehaviour
     {
         float movimentoHorizontal = Input.GetAxis("Horizontal");
         oRigidbody2D.velocity = new Vector2(movimentoHorizontal *VelocidadeDoJodador, oRigidbody2D.velocity.y);
+
+        if(movimentoHorizontal > 0)
+        {
+          transform.localScale = new Vector3(1f, 1f, 1f);
+          IndoParaDireita = true;
+
+        }
+        else if(movimentoHorizontal < 0)
+        {
+           transform.localScale = new Vector3(-1f, 1f, 1f);
+           IndoParaDireita = false;
+
+        }
+        
 
     } 
 
