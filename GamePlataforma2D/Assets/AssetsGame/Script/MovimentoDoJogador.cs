@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class MovimentoDoJogador : MonoBehaviour
 {
+    [Header("Referencias")]
     private Rigidbody2D oRigidbody2D;
+
+    [Header("MovimentoHorizontal")]
     public  float VelocidadeDoJodador;
     public bool IndoParaDireita;
     
